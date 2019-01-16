@@ -6,7 +6,7 @@ Darkest useable  : rgb(63, 116, 239)
 */
 
 html{
-    background-color: rgb(244, 247, 255);
+    background-color: rgb(255, 255, 255);
     font-family: 'Raleway', sans-serif;
     min-height: 100vh;
     min-width: 100vw;
@@ -17,19 +17,20 @@ header{
     width: 100%;
     max-width: 2560px;
     max-height: 240px;
-
 }
+
 h1{
-    font-size:200%;
+    font-size:100%;
     margin: 0 auto;
 }
 div.content{
+    
     max-width: 1280px;
     margin: 0 auto;
 }
 div.container-top{
     padding: 0px 20px 0px 20px;
-    margin: 0px 15% 0px 20%;
+    margin: 0px 1vw 0px 1vw;
     color: black;
     font-size: 400%;
     text-align: left;
@@ -37,15 +38,11 @@ div.container-top{
 body{
     width: 100%;
     margin: 0 auto;
-    background-color: rgb(244, 247, 255);
    
 }
 div.bio-header{
     background-color: rgb(183, 204, 254);
-    width: 100%;
-    max-width: 2560px;
     max-height: 240px;
-    
     font-size: 300%;
     color: black;
 }
@@ -55,23 +52,37 @@ div.bio-text{
 
 }
 
-div.link-header{
+div.links-header{
     background-color: rgb(183, 204, 254);
-    width: 100%;
-    max-width: 2560px;
     max-height: 240px;
-    
     font-size: 300%;
     color: black;    
 
 }
+div.links-text{
+    background-color: rgb(244, 247, 255);
+    padding: 5px 0px 5px 0px;
+}
 
-a{
+div.assignments{
+    background-color: rgb(183, 204, 254);
+    max-height: 240px;
+    font-size: 300%;
+    color: black; 
+}
+div.assignments-links{
+    background-color: rgb(244, 247, 255);
+    padding: 5px 0px 5px 0px;
+    font-size: 16px;
+}
+
+h2,h3,h4{
     line-height: 1.5;
     letter-spacing: 1px;
     margin: 0 auto;
-    max-width: 1800px;
+    max-width: 80vw;
     text-align: left;
+    font-size: 100%;
 }
 
 p, li {
@@ -81,13 +92,7 @@ p, li {
     padding: 0px 2% 0px 2%;
     max-width: 1280px;
 }
+
 a:hover{
     color: black;
-}
-img{
-    width: 100%;
-    max-width: 2560px;
-    max-height: 480px;
-    margin: 0 auto;
-    padding: 0px 0px 0px 0px;
 }
