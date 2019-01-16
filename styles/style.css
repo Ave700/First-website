@@ -1,0 +1,93 @@
+/*Color Family my dude
+Light background : rgb(244, 247, 255)
+Dark background  : rgb(183, 204, 254)
+Big block        : rgb(101, 146, 249)
+Darkest useable  : rgb(63, 116, 239)
+*/
+
+html{
+    background-color: rgb(244, 247, 255);
+    font-family: 'Raleway', sans-serif;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+header{
+    background-color: rgb(63, 116, 239);
+    width: 100%;
+    max-width: 2560px;
+    max-height: 240px;
+
+}
+h1{
+    font-size:200%;
+    margin: 0 auto;
+}
+div.content{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+div.container-top{
+    padding: 0px 20px 0px 20px;
+    margin: 0px 15% 0px 20%;
+    color: black;
+    font-size: 400%;
+    text-align: left;
+}
+body{
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(244, 247, 255);
+   
+}
+div.bio-header{
+    background-color: rgb(183, 204, 254);
+    width: 100%;
+    max-width: 2560px;
+    max-height: 240px;
+    
+    font-size: 300%;
+    color: black;
+}
+div.bio-text{
+    background-color: rgb(244, 247, 255);
+    padding: 5px 0px 5px 0px;
+
+}
+
+div.link-header{
+    background-color: rgb(183, 204, 254);
+    width: 100%;
+    max-width: 2560px;
+    max-height: 240px;
+    
+    font-size: 300%;
+    color: black;    
+
+}
+
+a{
+    line-height: 1.5;
+    letter-spacing: 1px;
+    margin: 0 auto;
+    max-width: 1800px;
+    text-align: left;
+}
+
+p, li {
+    line-height: 2;
+    letter-spacing: 1px;
+    margin: 0 auto;
+    padding: 0px 2% 0px 2%;
+    max-width: 1280px;
+}
+a:hover{
+    color: black;
+}
+img{
+    width: 100%;
+    max-width: 2560px;
+    max-height: 480px;
+    margin: 0 auto;
+    padding: 0px 0px 0px 0px;
+}
