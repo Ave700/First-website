@@ -32,7 +32,7 @@ div.container-top{
     padding: 0px 20px 0px 20px;
     margin: 0px 1vw 0px 1vw;
     color: black;
-    font-size: 400%;
+    font-size: 300%;
     text-align: left;
 }
 body{
@@ -40,49 +40,38 @@ body{
     margin: 0 auto;
    
 }
-div.bio-header{
-    background-color: rgb(183, 204, 254);
-    max-height: 240px;
-    font-size: 300%;
-    color: black;
-}
+
 div.bio-text{
-    background-color: rgb(244, 247, 255);
+    /* background-color: rgb(244, 247, 255); */
     padding: 5px 0px 5px 0px;
 
 }
 
-div.links-header{
-    background-color: rgb(183, 204, 254);
-    max-height: 240px;
-    font-size: 300%;
-    color: black;    
-
-}
 div.links-text{
-    background-color: rgb(244, 247, 255);
+    /* background-color: rgb(244, 247, 255); */
     padding: 5px 0px 5px 0px;
 }
 
-div.assignments{
-    background-color: rgb(183, 204, 254);
-    max-height: 240px;
-    font-size: 300%;
-    color: black; 
-}
 div.assignments-links{
-    background-color: rgb(244, 247, 255);
+    
     padding: 5px 0px 5px 0px;
     font-size: 16px;
 }
 
-h2,h3,h4{
+
+h2,h3,h4,h5{
+    background-color: rgb(183, 204, 254);
+    max-height: 240px;
+    font-size: 150%;
+    color: black;
+
     line-height: 1.5;
     letter-spacing: 1px;
     margin: 0 auto;
-    max-width: 80vw;
+    max-width: 1080px;
     text-align: left;
-    font-size: 100%;
+    padding: 0px 10px 0px 10px;
+    
 }
 
 p, li {
@@ -90,9 +79,25 @@ p, li {
     letter-spacing: 1px;
     margin: 0 auto;
     padding: 0px 2% 0px 2%;
-    max-width: 1280px;
+    max-width: 1080px;
+}
+
+ul{
+    line-height: 2;
+    letter-spacing: 1px;
+    margin: 0 10%;
+    padding: 0px 2%;
+    max-width: 1080px;
+
 }
 
 a:hover{
     color: black;
+}
+
+img{
+    margin: 0 auto;
+    display: block;
+    padding: 5px 0px 5px 0px;
+
 }
