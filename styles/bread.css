@@ -1,0 +1,60 @@
+html{
+    background-color: blanchedalmond;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    margin: 0 auto;
+    
+
+}
+
+div.topblock{
+    background-color: #EF3734;
+    display: flex;
+    height:3.25rem;
+    position: relative;
+    text-align: center;
+    margin: 0 5vw;
+    box-shadow: 0 0 4px rgba(0,0,0,0.17);
+   
+
+}
+div>a{
+    font-size: 24px;
+    padding: 1vh 1vw;
+
+}
+
+div.contentblock{
+    box-shadow: 0 0 4px rgba(0,0,0,0.17);
+    background-color: #FCFCFC;
+    font-family: 'Raleway', sans-serif;
+    margin: 0 5vw;
+    padding: 0 4px 3.5em 4px;
+   
+    
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    margin: 0 0 10px auto;
+}
+h2,h3,h4{
+    font-size: 24px;
+}
+p{
+    padding: 1vh 1vw;
+}
+img{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 80vw;
+    max-height: 80vh;
+    min-width: 240px;
+    
+    
+
+    
+}
