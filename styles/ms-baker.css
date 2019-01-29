@@ -1,0 +1,78 @@
+html{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    
+}
+h1{
+    background-color: black;
+    color: white;
+    padding: .7vh .5vw .7vh .5vw;
+    margin: 0;
+    font-size: 2.7em;
+    box-shadow: 0 0 4px rgba(0,0,0,0.17);
+    /* min-height: 7vh; */
+}
+
+div.content-baker{
+    
+    box-shadow: 0 0 4px rgba(0,0,0,0.17);
+    max-width: 37em;
+    margin: 0 auto;
+}
+div.baker-body{
+    /* font-size: 24px; */
+    max-width: 33em;
+    line-height: 2em;
+    margin: 0 auto;
+    background-color: white;
+    
+}
+body{
+    padding: 0;
+    margin: 0 auto;
+    
+}
+
+h2,h3,h4,h5,h6{
+    font-size: 2em;
+    margin: 0;
+    padding: .5em 0 1em 0;
+    
+}
+
+p{
+    padding: 0em 1em 3em 1em;
+    margin: 0;
+}
+
+img{
+    display:block;
+    margin: 0 auto;
+}
+div.image-caption{
+    font-size: .536em;
+    text-align: center;
+    padding: 0 0 2em 0;
+}
+
+@media only screen and (max-device-width: 540px){
+    html{
+        font-size:18px;
+    }
+    div.baker-body{
+        max-width: 100vw;
+    }
+    p{
+        /* font-size: 18px; */
+        padding: 0 1em 2em 1em;
+    
+    }
+    div.content-baker{
+        max-width:100%;
+        padding: 1em;
+    }
+    body{
+        max-width: 100vw;
+    }
+}
