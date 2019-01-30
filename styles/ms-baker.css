@@ -52,7 +52,7 @@ img{
     width: 95%;
     
 }
-div.image-caption{
+figcaption{
     font-size: .536em;
     text-align: center;
     padding: 0 0 2em 0;
