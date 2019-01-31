@@ -1,0 +1,61 @@
+html {
+    font-family: sans-serif;
+  }
+  body{
+      max-width: 1400px;
+      margin: 0 auto;
+  }
+  
+  table {
+    border-collapse: collapse;
+    border: 2px solid rgb(50,50,50);
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+    margin: 0 auto;
+    
+  }
+
+  .month{
+    width:100%;
+    background-color: rgb(150,150,150);
+    height: 1.5em;
+    font-size: 2em;
+
+  }
+  .days{
+      height:2em;
+      border: 1px solid rgb(51, 51, 51);
+      background-color: rgb(235, 235, 235);
+      
+      
+  }
+  td {
+    border: 1px solid rgb(190,190,190);
+    padding: 3px 0 0 3px;
+    height: 128px;
+    width: 128px;
+    vertical-align: top;
+    font-size: 1.2em;
+  } 
+  
+  th {
+    width: 128px;
+  }
+  
+  a{
+      display: block;
+      text-align: center;
+      padding: 10px 0px 0px 1px;
+      font-size: .8em;
+  }
+  img{
+      display: block;
+      margin: 0 auto;
+      padding: 5px 0 0 0;
+  }
+  
+  
+  .outside{
+      color: rgba(0, 0, 0, 0.507);
+      background-color: rgb(200,200,200);
+      
