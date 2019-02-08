@@ -1,6 +1,144 @@
 :root{
+    --black: rgb(26, 26, 27);
+    --grey: rgb(209, 209, 209);
+    --dark: rgb(120,120,120);
+   
+}
+
+html{
+    box-sizing: border-box;
     font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: var(--black);
+}
+
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+a{
+    font-size: .7em;
+}
+a:link, a:visited{
+    text-decoration: none;
+    color: var(--black);
+}
+a:hover{
+    background-color: antiquewhite;
+}
+p{
+    margin:0 auto;
+    font-size: .7em;
+    text-shadow: none;
+    max-width: 28em;
+    text-align: center;
+    line-height: 1.5em;
+}
+h1,h4{
     margin:0;
-    padding:0;
+    font-size: 1.4em;
+}
+h2,h3{
+    margin:0;
+    font-size: 1.1em;
+    font-weight: 1200;
+    text-shadow: none;
+    
+}
+
+body{
+    margin:0;
+    /* align-content: flex-start; */
+    display: flex;
+    flex-direction: column;
+}
+
+.box{
+    display: flex;
+    background:white;
+    font-size: 40px;
+    text-align: center;
+    text-shadow:2px 2px 0 rgba(0,0,0,0.1);
+    /* border: 4px solid greenyellow; */
+    order: 1;
+}
+
+.header{
+    background: var(--grey);
+    /* min-height: 7vh; */
+}
+
+.core{
+    font-size: 22px;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+    .content{
+        
+        flex-direction: column;
+        min-width: 50vw;
+        align-content: center;
+        order:2;
+        box-shadow: 0 0 4px rgba(0,0,0,0.17);
+        padding: 1em;
+        
+    }
+
+    .side1, .side2{
+        display: flex;
+        flex-direction: column;
+        order:2;
+        align-content: center;
+        padding: 1em;
+    }
+
+    .side1{background-color: rgba(205, 92, 92, 0.486)}
+    .side2{background-color: rgba(173, 216, 230, 0.548)}
+
+
+
+.topnav{
+    
+    width: 100%;
+    /* min-height: 4vh; */
+    text-align: center;
+    background-color: var(--dark);
+    /* box-shadow: 0 0 4px rgba(0,0,0,0.17); */
+    
+}
+    .btn{
+        background-color: var(--dark);;
+        padding: 4px 5px;
+        text-align: center;
+    }
+
+.footer{
+    display: flex;
+    /* flex-direction: column; */
+    order: 8;
+    background: var(--grey);
+    
+    
+    
+}
+
+@media only screen and (max-width: 600px){
+    html{font-size:16px;}
+    .core{
+        flex-direction: column;
+        
+        /* justify-content: center; */
+    }
+    .content{
+        order:3;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    html{font-size:18px;}
 }
 
