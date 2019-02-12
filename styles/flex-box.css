@@ -125,7 +125,17 @@ body{
     
     
 }
-
+@media only screen and (max-width: 600px){
+    html{font-size:16px;}
+    .core{
+        flex-direction: column;
+        
+         /* justify-content: center;  */
+    }
+    .content{
+        order:3;
+    }
+}
 @media only screen and (max-device-width: 600px){
     html{font-size:16px;}
     .core{
@@ -137,17 +147,7 @@ body{
         order:3;
     }
 }
-@media only screen and (max-width: 600px){
-    html{font-size:16px;}
-    .core{
-        flex-direction: column;
-        
-        /* justify-content: center; */
-    }
-    .content{
-        order:3;
-    }
-}
+
 
 @media only screen and (max-device-width: 800px){
     html{font-size:18px;}
