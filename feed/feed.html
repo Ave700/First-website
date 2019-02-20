@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <title>A small animal simulator</title>
+        <link href="../styles/feed.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link rel="icon" 
+          type="image/png" 
+          href="../images/favicon.png">
+          <script src="../scripts/feed.js"></script>
+        </head>
+
+        
+    <body>
+        <div class="topbar">
+            <h1>
+                Basic Animal Simulator 
+            </h1>
+        </div>
+        <div class="sim">
+            <h2>
+                <p class="name" id="name">-Give your animal a name-</p>
+                <button onclick="nameChange()">Change Name</button>
+            </h2>
+            <h3>
+                <p class="info">Hunger Status:</p>
+                <p class="data" id="status">FULL</p>
+                <button onclick="feedEm()" id="btnF">Feed</button>
+                <button onclick="feedChange()" id="btnCF">Cycle feed</button>
+                <p class="info">Current Feed Selected:</p>
+                <p class="data" id="feed">Grass (50)</p>
+            </h3>
+        </div>
+    </body>
+    
+    <footer>
+        
+    </footer>
+
+
+</html>
